@@ -1,0 +1,51 @@
+    body{
+      font-family: 'Press Start 2P', cursive;
+      font-family: 'Space Mono', monospace;
+    }
+
+    .row{
+      display:flex;
+      justify-content: space-between;
+    }
+
+    .button {
+      color: teal; 
+      border:1px teal solid;  
+      border-radius: 5px; 
+      text-decoration: none;
+      display: inline-block;
+      width:100%;
+      text-align:center;
+      padding-top: 0.25em;
+      padding-bottom: 0.25em;
+      justify-content: space-between;
+    }
+
+    .mb{
+      margin-bottom:10px;
+    }
+
+    .player-card {
+      border: thin green solid;
+      width:49%;
+    }
+
+    .computer-card{
+      border: thin red solid;
+      width:49%
+    }
+
+    .outcome-card{
+      border: thin red solid;
+      background-color: pink;
+      width:66%;
+    }
+
+    .row-center{
+      display: flex;
+      justify-content: center;
+    }
+
+    .one-third{
+      width:32%
+    }
