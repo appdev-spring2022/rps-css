@@ -24,7 +24,7 @@
     .mb{
       margin-bottom:10px;
     }
-
+    
     .player-card {
       border: thin green solid;
       width:49%;
@@ -34,7 +34,6 @@
       border: thin red solid;
       width:49%
     }
-
     .outcome-card{
       border: thin red solid;
       background-color: pink;
